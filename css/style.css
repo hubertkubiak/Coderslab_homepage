@@ -73,9 +73,9 @@ header {
 .head {
   z-index: 20;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2em;
   color: #c6c6c6;
-  padding-top: 20px; }
+  padding-top: 24px; }
 
 .space {
   height: 20px; }
