@@ -4,14 +4,32 @@
 $(function(){
 
     var Application = function(){
-        function init() {
-            console.log("init");
-        }
-        function stickyMenu (){
-            console.log(12);
+        function hideHeading () {
+            var menu = $(".navbar");
+            var header = $("header");
 
+            $(window).scroll(function (event) {
+                if (menu.offset().top > header.offset().top+50) {
+                    header.addClass("faded", 400);
+                }
+                if (menu.offset().top <= header.offset().top+50) {
+                    header.removeClass("faded", 400);
+                }
+            });
         }
-
+        //function changeOpacity () {
+        //    var menu = $(".navbar");
+        //    var firstSection = $(".three-options");
+        //
+        //    $(window).scroll(function (event) {
+        //        if (menu.offset().top > firstSection.offset().top+50) {
+        //            menu.css({"opacity": 1})
+        //        }
+        //        if (menu.offset().top <= firstSection.offset().top+50) {
+        //            menu.css({"opacity": 0})
+        //        }
+        //    });
+        //}
         function animsite () {
             $(".animsition").animsition({
                 inClass: 'fade-in-down',
@@ -43,14 +61,14 @@ $(function(){
             });
         }
         return {
-           init: init,
-           stickyMenu: stickyMenu,
-           animsite: animsite
+            hideHeading: hideHeading,
+            //changeOpacity: changeOpacity,
+            animsite: animsite
         };
     };
 
     var app = new Application();
-    app.init();
-    app.stickyMenu();
+    //app.changeOpacity();
+    app.hideHeading();
     app.animsite();
 });
