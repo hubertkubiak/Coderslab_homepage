@@ -89,7 +89,7 @@ body {
   text-align: center; }
 
 .top-section {
-  background: url(../images/54.jpg);
+  background: url("../images/54.jpg");
   background-size: cover;
   background-attachment: fixed; }
   .top-section .space {
@@ -193,7 +193,8 @@ body {
     .top-section .menu-hamburger .ham {
       width: 100%; }
     .top-section .menu-hamburger a {
-      color: white; }
+      color: white;
+      text-decoration: none; }
     @media (min-width: 700px) and (max-width: 870px), (min-width: 870px), (min-width: 600px) and (max-width: 700px) {
       .top-section .menu-hamburger {
         display: none; } }
@@ -260,11 +261,11 @@ body {
     margin: 60px auto 30px;
     text-align: center; }
   .three-options .circle1 {
-    background: url(../images/ja.png); }
+    background: url("../images/ja.png"); }
   .three-options .circle2 {
-    background: url(../images/Clipboard.png); }
+    background: url("../images/Clipboard.png"); }
   .three-options .circle3 {
-    background: url(../images/contact.png); }
+    background: url("../images/contact.png"); }
   .three-options [class*="-option"] p {
     font-size: 2.5em; }
     @media (min-width: 600px) and (max-width: 700px) {
@@ -277,7 +278,7 @@ body {
 #omnie {
   padding: 150px 0 110px 0;
   color: #838383;
-  background: url(../images/54.jpg);
+  background: url("../images/54.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 850px; }
@@ -323,7 +324,7 @@ body {
       background: #00777b;
       border-radius: 50%;
       margin: 0 auto;
-      background-image: url(../images/legit2.jpg);
+      background-image: url("../images/legit2.jpg");
       background-size: cover; }
       @media (min-width: 700px) and (max-width: 870px) {
         #omnie .omnie-pictures .circle {
@@ -415,7 +416,7 @@ body {
         opacity: 0.5; }
 
 #kontakt {
-  background: url(../images/54.jpg);
+  background: url("../images/54.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding: 180px 0 70px 0; }

@@ -32,7 +32,7 @@ body {
 // Top section
 
 .top-section {
-  background: url(../images/54.jpg);
+  background: url('../images/54.jpg');
   background-size: cover;
   background-attachment: fixed;
   .space {
@@ -151,6 +151,7 @@ body {
     }
     a {
       color: white;
+      text-decoration: none;
     }
     @media #{$tabletBig, $desktop, $tabletMedium} {
       display: none;
@@ -232,13 +233,13 @@ body {
     text-align: center;
   }
   .circle1 {
-    background: url(../images/ja.png);
+    background: url('../images/ja.png');
   }
   .circle2 {
-    background: url(../images/Clipboard.png);
+    background: url('../images/Clipboard.png');
   }
   .circle3 {
-    background: url(../images/contact.png);
+    background: url('../images/contact.png');
   }
   [class*="-option"] {
     p {
@@ -258,7 +259,7 @@ body {
 #omnie {
   padding: 150px 0 110px 0;
   color: #838383;
-  background: url(../images/54.jpg);
+  background: url('../images/54.jpg');
   background-size: cover;
   background-attachment: fixed;
   height: 850px;
@@ -311,7 +312,7 @@ body {
       background: map_get($Colors, greenLighter);
       border-radius: 50%;
       margin: 0 auto;
-      background-image: url(../images/legit2.jpg);
+      background-image: url('../images/legit2.jpg');
       background-size: cover;
       @media #{$tabletBig} {
         width: 300px;
@@ -425,7 +426,7 @@ body {
 // contact section
 
 #kontakt {
-  background: url(../images/54.jpg);
+  background: url('../images/54.jpg');
   background-size: cover;
   background-attachment: fixed;
   padding: 180px 0 70px 0;
