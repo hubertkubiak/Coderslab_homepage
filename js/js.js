@@ -137,13 +137,24 @@ $(function(){
             var menu = $(".navbar");
             var firstSection = $("#omnie");
             var oMnie = $(".omnie-container");
-
+            var portfolio = $('#portfolio');
+            var portfolioH1 = $('#portfolio h1');
 
             $(window).scroll(function (event) {
                 if (menu.offset().top > firstSection.offset().top-100) {
                     oMnie.pulse(
                         {
-                            fontWeight:  '#EFEDEA',
+                            color: "white"
+                        },
+                        {
+                            returnDelay : 1000000,
+                            pulses      : 1
+                        }
+                    );
+                }
+                if (menu.offset().top > portfolio.offset().top-100) {
+                    portfolioH1.pulse(
+                        {
                             color: "white"
                         },
                         {
@@ -154,16 +165,33 @@ $(function(){
                 }
             });
         }
-
+        function scrollPage(){
+            var navigationOpt = $(".menu1 a");
+            navigationOpt.on("click", function(event){
+                var hrefs = $(this).attr("href");
+                $('html,body').animate({
+                    scrollTop:$(hrefs).offset().top
+                }, 400);
+            });
+            var circlesOpt = $(".option a");
+            circlesOpt.on("click", function(event){
+                var hrefs = $(this).attr("href");
+                $('html,body').animate({
+                    scrollTop:$(hrefs).offset().top
+                }, 400);
+            });
+        }
         return {
             hideHeading: hideHeading,
             highlightOption: highlightOption,
             hideOutElements: hideOutElements,
+            scrollPage: scrollPage,
             animsite: animsite
         };
     };
 
     var app = new Application();
+    app.scrollPage();
     app.hideOutElements();
     app.highlightOption();
     app.hideHeading();

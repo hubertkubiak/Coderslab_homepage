@@ -244,6 +244,168 @@ body {
       color: #4b4b4b; }
 
 #portfolio {
-  height: 500px; }
+  padding: 120px 0 120px 0; }
+  #portfolio h1 {
+    margin: 0 auto;
+    width: 500px;
+    color: #aeaeae;
+    padding: 10px;
+    text-align: center;
+    background: #7f7f7f;
+    opacity: 0.9;
+    border-radius: 7px; }
+  #portfolio .blocks {
+    display: inline-block; }
+    #portfolio .blocks img {
+      width: 100%;
+      padding: 20px; }
+      #portfolio .blocks img:hover {
+        opacity: 0.5; }
+
+#kontakt {
+  height: 1000px;
+  background: url(../images/54.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 150px 0 110px 0; }
+
+.form {
+  text-align: left; }
+
+.name {
+  width: 98%;
+  border: 1px solid #000;
+  height: 60px;
+  font-size: 1.5em;
+  margin-bottom: 20px; }
+
+.name:hover {
+  border: 1px solid #9f449b; }
+
+.email {
+  width: 98%;
+  height: 60px;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 1.5em;
+  margin-bottom: 20px; }
+
+.email:hover {
+  border: 1px solid #9f449b; }
+
+.textarea {
+  width: 98%;
+  height: 250px;
+  font-size: 1.5em;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  padding-bottom: 15px; }
+
+.textarea:hover {
+  border: 1px solid #9f449b; }
+
+.textarea:focus {
+  border: 1px solid #add8e6; }
+
+#submit {
+  padding-top: 5px;
+  font-size: 1.3em;
+  color: white;
+  background: #9f449b;
+  border-radius: 7px;
+  height: 70px;
+  width: 220px;
+  box-shadow: 3px 4px 2px #9f449b; }
+
+#submit:hover {
+  background: #fff;
+  border: 1px solid purple;
+  color: #9f449b; }
+
+.contactdata {
+  vertical-align: top;
+  text-align: left;
+  font-size: 1.2em; }
+
+.contactdata p {
+  padding-bottom: 8%; }
+
+.contactdata .contacttext {
+  color: #676767; }
+
+.contactdata .adress {
+  font-weight: bold;
+  color: #222222; }
+
+.contactdata .telephone {
+  font-weight: bold;
+  color: #222222; }
+
+.social {
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px; }
+
+.facebook {
+  background-image: url(../images/f.png); }
+
+.facebook:hover {
+  background-image: url(../images/fhr.png); }
+
+.twitter {
+  background-image: url(../images/t.png); }
+
+.twitter:hover {
+  background-image: url(../images/thr.png); }
+
+.google {
+  background-image: url(../images/g.png); }
+
+.google:hover {
+  background-image: url(../images/ghr.png); }
+
+@media (max-width: 400px), (min-width: 400px) and (max-width: 690px) {
+  .contactcontent {
+    text-align: center; }
+
+  form {
+    text-align: center;
+    width: 100%; }
+
+  .email {
+    font-size: 1em; }
+
+  .name {
+    font-size: 1em; }
+
+  .textarea {
+    font-size: 1em; }
+
+  #submit {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 0.9em; }
+
+  .contactdata {
+    width: 80%;
+    margin: 0 auto; } }
+.totopbottom {
+  position: fixed;
+  bottom: 30px;
+  right: 30px; }
+
+.companyname3 {
+  font-family: Existence, Lato, sans-serif;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #676767;
+  line-height: 0.3;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 8%; }
+
+.companyname3 span {
+  color: #9f449b; }
 
 /*# sourceMappingURL=style.css.map */
