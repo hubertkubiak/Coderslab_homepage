@@ -139,6 +139,8 @@ $(function(){
             var oMnie = $(".omnie-container");
             var portfolio = $('#portfolio');
             var portfolioH1 = $('#portfolio h1');
+            var contact = $('#kontakt');
+            var contactData = $('.contactdata');
 
             $(window).scroll(function (event) {
                 if (menu.offset().top > firstSection.offset().top-100) {
@@ -154,6 +156,17 @@ $(function(){
                 }
                 if (menu.offset().top > portfolio.offset().top-100) {
                     portfolioH1.pulse(
+                        {
+                            color: "white"
+                        },
+                        {
+                            returnDelay : 1000000,
+                            pulses      : 1
+                        }
+                    );
+                }
+                if (menu.offset().top > contact.offset().top-100) {
+                    contactData.pulse(
                         {
                             color: "white"
                         },
