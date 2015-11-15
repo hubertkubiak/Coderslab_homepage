@@ -142,7 +142,7 @@ body {
     .top-section header .opacity-background {
       height: 150px;
       margin-top: 100px;
-      background: #005155;
+      background: #444444;
       opacity: 0.9; }
       .top-section header .opacity-background .head {
         z-index: 20;
@@ -155,7 +155,7 @@ body {
   opacity: 0; }
 
 .three-options {
-  padding: 15px 0 65px 0; }
+  padding: 15px 0 80px 0; }
   .three-options .circle {
     width: 160px;
     height: 160px;
@@ -173,9 +173,63 @@ body {
     font-size: 2.5em; }
 
 #omnie {
-  padding: 100px 0;
-  background: #002b2d;
-  color: white; }
+  padding: 110px 0 110px 0;
+  color: white;
+  background: url(../images/54.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 760px; }
+  #omnie .omnie-container {
+    vertical-align: bottom; }
+  #omnie p {
+    background: #505050;
+    opacity: 0.9;
+    padding: 30px;
+    font-size: 1.2em;
+    text-align: left; }
+    #omnie p .special {
+      color: #0cb9ad;
+      font-weight: bold; }
+    #omnie p a {
+      color: #0cb9ad;
+      text-decoration: none;
+      font-weight: bold; }
+      #omnie p a:hover {
+        color: black; }
+  #omnie .circle {
+    width: 250px;
+    height: 250px;
+    background: #00777b;
+    border-radius: 50%;
+    margin-top: 40px;
+    background-image: url(../images/legit.jpg); }
+  #omnie .socials .git {
+    width: 40%;
+    display: inline-block; }
+    #omnie .socials .git img {
+      height: 80px;
+      width: 80px; }
+  #omnie .socials .linkedin {
+    width: 40%;
+    display: inline-block; }
+    #omnie .socials .linkedin img {
+      height: 80px;
+      width: 80px; }
+  #omnie .button {
+    height: 40px;
+    width: 330px;
+    padding-top: 5px;
+    margin: 20px auto 0;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    border: 1px solid #005155;
+    background: #005155;
+    border-radius: 7px; }
+    #omnie .button:hover {
+      background: aliceblue;
+      border: 1px solid #b1b1b1;
+      color: #4b4b4b; }
 
 #portfolio {
   height: 500px; }
