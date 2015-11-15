@@ -280,7 +280,10 @@ body {
   background: url(../images/54.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 760px; }
+  height: 850px; }
+  @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
+    #omnie {
+      height: 940px; } }
   #omnie .omnie-container {
     vertical-align: bottom; }
   @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
@@ -308,33 +311,32 @@ body {
       font-weight: bold; }
       #omnie p a:hover {
         color: black; }
-  @media (min-width: 400px) and (max-width: 600px), (max-width: 400px), (min-width: 600px) and (max-width: 700px) {
-    #omnie .omnie-pictures {
-      vertical-align: top; } }
-  @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
-    #omnie .omnie-pictures {
-      padding-top: 50px;
-      width: 100%; } }
-  #omnie .omnie-pictures .circle {
-    width: 350px;
-    height: 350px;
-    background: #00777b;
-    border-radius: 50%;
-    margin: 0 auto;
-    background-image: url(../images/legit2.jpg);
-    background-size: cover; }
-    @media (min-width: 700px) and (max-width: 870px) {
-      #omnie .omnie-pictures .circle {
-        width: 300px;
-        height: 300px; } }
-    @media (min-width: 600px) and (max-width: 700px) {
-      #omnie .omnie-pictures .circle {
-        width: 220px;
-        height: 220px; } }
+  #omnie .omnie-pictures {
+    vertical-align: top; }
     @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
-      #omnie .omnie-pictures .circle {
-        width: 160px;
-        height: 160px; } }
+      #omnie .omnie-pictures {
+        padding-top: 50px;
+        width: 100%; } }
+    #omnie .omnie-pictures .circle {
+      width: 350px;
+      height: 350px;
+      background: #00777b;
+      border-radius: 50%;
+      margin: 0 auto;
+      background-image: url(../images/legit2.jpg);
+      background-size: cover; }
+      @media (min-width: 700px) and (max-width: 870px) {
+        #omnie .omnie-pictures .circle {
+          width: 300px;
+          height: 300px; } }
+      @media (min-width: 600px) and (max-width: 700px) {
+        #omnie .omnie-pictures .circle {
+          width: 220px;
+          height: 220px; } }
+      @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
+        #omnie .omnie-pictures .circle {
+          width: 160px;
+          height: 160px; } }
   #omnie .socials {
     padding-top: 30px; }
     @media (min-width: 600px) and (max-width: 700px) {
@@ -359,7 +361,7 @@ body {
     height: 40px;
     width: 330px;
     padding-top: 5px;
-    margin: 20px auto 0;
+    margin: 30px auto 0;
     font-size: 1.4em;
     text-align: center;
     border: 1px solid #005155;
@@ -378,6 +380,9 @@ body {
 
 #portfolio {
   padding: 120px 0 120px 0; }
+  @media (max-width: 400px) {
+    #portfolio {
+      padding: 90px 0 120px 0; } }
   #portfolio h1 {
     margin: 0 auto;
     width: 500px;
@@ -390,12 +395,14 @@ body {
     @media (min-width: 400px) and (max-width: 600px) {
       #portfolio h1 {
         width: 300px;
-        font-size: 0.9em; } }
+        font-size: 0.9em;
+        margin-bottom: 20px; } }
     @media (max-width: 400px) {
       #portfolio h1 {
         width: 200px;
         font-size: 0.8em;
-        margin-top: 50px; } }
+        margin-top: 50px;
+        margin-bottom: 20px; } }
   #portfolio .blocks {
     display: inline-block; }
     @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
