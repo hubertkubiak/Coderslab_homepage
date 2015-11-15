@@ -7,3 +7,16 @@ $Colors: (
         menuColor: #343A41,
         greenLighter: #00777b
 );
+
+
+$smartphone: "(max-width: 400px)";
+
+$tabletSmall: "(min-width: 400px) and (max-width: 600px)";
+
+$tabletMedium: "(min-width: 600px) and (max-width: 700px)";
+
+$tabletBig: "(min-width: 700px) and (max-width: 870px)";
+
+$desktop: "(min-width: 870px)";
+
+$verySmall: "(max-width: 300px)";

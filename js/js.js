@@ -47,6 +47,18 @@ $(function(){
                 }
             });
         }
+        function hamburger(){
+            var ham = $(".hamburger");
+            var menuhamburger = $(".menu-hamburger");
+
+            ham.on("click", function(event){
+                menuhamburger.toggleClass("unwind", 500);
+            });
+            var hamlinks = $(".ham a");
+            hamlinks.on("click", function(event){
+                menuhamburger.addClass("unwind", 500);
+            })
+        }
         function highlightOption(){
                 var optionOmnie = $(".omnie-option");
 
@@ -196,6 +208,7 @@ $(function(){
         }
         return {
             hideHeading: hideHeading,
+            hamburger: hamburger,
             highlightOption: highlightOption,
             hideOutElements: hideOutElements,
             scrollPage: scrollPage,
@@ -204,6 +217,7 @@ $(function(){
     };
 
     var app = new Application();
+    app.hamburger();
     app.scrollPage();
     app.hideOutElements();
     app.highlightOption();
