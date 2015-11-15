@@ -113,6 +113,8 @@ body {
       float: left;
       vertical-align: middle;
       padding-left: 30px; }
+      .top-section .navbar .my-name a {
+        text-decoration: none; }
       .top-section .navbar .my-name .span1 {
         color: white; }
       .top-section .navbar .my-name .span2 {
@@ -146,9 +148,9 @@ body {
       opacity: 0.9; }
       .top-section header .opacity-background .head {
         z-index: 20;
+        color: white;
         text-align: center;
         font-size: 2.2em;
-        color: #c6c6c6;
         padding-top: 20px; }
 
 .faded {
@@ -156,6 +158,9 @@ body {
 
 .three-options {
   padding: 15px 0 80px 0; }
+  .three-options a {
+    text-decoration: none;
+    color: #4b4b4b; }
   .three-options .circle {
     width: 160px;
     height: 160px;
@@ -173,8 +178,8 @@ body {
     font-size: 2.5em; }
 
 #omnie {
-  padding: 110px 0 110px 0;
-  color: white;
+  padding: 150px 0 110px 0;
+  color: #838383;
   background: url(../images/54.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -197,21 +202,23 @@ body {
       #omnie p a:hover {
         color: black; }
   #omnie .circle {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     background: #00777b;
     border-radius: 50%;
-    margin-top: 40px;
-    background-image: url(../images/legit.jpg); }
+    margin: 0 auto;
+    background-image: url(../images/legit2.jpg); }
   #omnie .socials .git {
     width: 40%;
-    display: inline-block; }
+    display: inline-block;
+    text-align: right; }
     #omnie .socials .git img {
       height: 80px;
       width: 80px; }
   #omnie .socials .linkedin {
     width: 40%;
-    display: inline-block; }
+    display: inline-block;
+    text-align: left; }
     #omnie .socials .linkedin img {
       height: 80px;
       width: 80px; }
@@ -221,14 +228,19 @@ body {
     padding-top: 5px;
     margin: 20px auto 0;
     font-size: 1.4em;
-    color: white;
     text-align: center;
     border: 1px solid #005155;
     background: #005155;
-    border-radius: 7px; }
+    border-radius: 7px;
+    display: inline-block; }
     #omnie .button:hover {
       background: aliceblue;
       border: 1px solid #b1b1b1;
+      color: #4b4b4b; }
+  #omnie a {
+    text-decoration: none;
+    color: white; }
+    #omnie a:hover {
       color: #4b4b4b; }
 
 #portfolio {
