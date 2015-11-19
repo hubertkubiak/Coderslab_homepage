@@ -281,7 +281,7 @@ body {
   background: url("../images/54.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 850px; }
+  height: 800px; }
   @media (min-width: 400px) and (max-width: 600px), (max-width: 400px) {
     #omnie {
       height: 940px; } }
@@ -294,7 +294,7 @@ body {
     background: #505050;
     opacity: 0.9;
     padding: 30px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: left; }
     @media (min-width: 700px) and (max-width: 870px), (min-width: 600px) and (max-width: 700px) {
       #omnie p {
