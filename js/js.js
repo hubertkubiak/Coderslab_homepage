@@ -66,85 +66,67 @@ $(function () {
             var optionOmnie = $(".omnie-option");
 
             optionOmnie.on("mouseenter", function (event) {
-                optionOmnie.pulse(
-                    {
-                        backgroundColor: '#b1b1b1'
-                    },
-                    {
-                        returnDelay: 60000,
+                optionOmnie.pulse({
+                    backgroundColor: '#b1b1b1'
+                }, {
+                    returnDelay: 60000,
 
-                        pulses: 1
-                    }
-                );
+                    pulses: 1
+                });
             });
 
             optionOmnie.on("mouseleave", function (event) {
-                optionOmnie.pulse(
-                    {
-                        backgroundColor: '#EFEDEA'
-                    },
-                    {
-                        returnDelay: 30000,
+                optionOmnie.pulse({
+                    backgroundColor: '#EFEDEA'
+                }, {
+                    returnDelay: 30000,
 
-                        pulses: 1
-                    }
-                );
+                    pulses: 1
+                });
             });
 
             var optionPortfolio = $(".portfolio-option");
 
             optionPortfolio.on("mouseenter", function (event) {
-                optionPortfolio.pulse(
-                    {
-                        backgroundColor: '#b1b1b1'
-                    },
-                    {
-                        returnDelay: 60000,
+                optionPortfolio.pulse({
+                    backgroundColor: '#b1b1b1'
+                }, {
+                    returnDelay: 60000,
 
-                        pulses: 1
-                    }
-                );
+                    pulses: 1
+                });
             });
 
             optionPortfolio.on("mouseleave", function (event) {
-                optionPortfolio.pulse(
-                    {
-                        backgroundColor: '#EFEDEA'
-                    },
-                    {
-                        returnDelay: 30000,
+                optionPortfolio.pulse({
+                    backgroundColor: '#EFEDEA'
+                }, {
+                    returnDelay: 30000,
 
-                        pulses: 1
-                    }
-                );
+                    pulses: 1
+                });
             });
 
             var optionKontakt = $(".contakt-option");
 
             optionKontakt.on("mouseenter", function (event) {
-                optionKontakt.pulse(
-                    {
-                        backgroundColor: '#b1b1b1'
-                    },
-                    {
-                        returnDelay: 60000,
+                optionKontakt.pulse({
+                    backgroundColor: '#b1b1b1'
+                }, {
+                    returnDelay: 60000,
 
-                        pulses: 1
-                    }
-                );
+                    pulses: 1
+                });
             });
 
             optionKontakt.on("mouseleave", function (event) {
-                optionKontakt.pulse(
-                    {
-                        backgroundColor: '#EFEDEA'
-                    },
-                    {
-                        returnDelay: 30000,
+                optionKontakt.pulse({
+                    backgroundColor: '#EFEDEA'
+                }, {
+                    returnDelay: 30000,
 
-                        pulses: 1
-                    }
-                );
+                    pulses: 1
+                });
             })
 
         }
@@ -160,37 +142,28 @@ $(function () {
 
             $(window).scroll(function (event) {
                 if (menu.offset().top > firstSection.offset().top - 100) {
-                    oMnie.pulse(
-                        {
-                            color: "white"
-                        },
-                        {
-                            returnDelay: 1000000,
-                            pulses: 1
-                        }
-                    );
+                    oMnie.pulse({
+                        color: "white"
+                    }, {
+                        returnDelay: 1000000,
+                        pulses: 1
+                    });
                 }
                 if (menu.offset().top > portfolio.offset().top - 100) {
-                    portfolioH1.pulse(
-                        {
-                            color: "white"
-                        },
-                        {
-                            returnDelay: 1000000,
-                            pulses: 1
-                        }
-                    );
+                    portfolioH1.pulse({
+                        color: "white"
+                    }, {
+                        returnDelay: 1000000,
+                        pulses: 1
+                    });
                 }
                 if (menu.offset().top > contact.offset().top - 100) {
-                    contactData.pulse(
-                        {
-                            color: "white"
-                        },
-                        {
-                            returnDelay: 1000000,
-                            pulses: 1
-                        }
-                    );
+                    contactData.pulse({
+                        color: "white"
+                    }, {
+                        returnDelay: 1000000,
+                        pulses: 1
+                    });
                 }
             });
         }
